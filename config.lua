@@ -68,39 +68,58 @@ Config.RepairCostAmount = {
 
 Config.Businesses = {
     "Auto Repair",
+    },
+    Config.Plates = {
+        [1] = {
+            coords = {x = 937.91, y = -970.64, z = 39.49, h = 271.5, r = 1.0},
+            AttachedVehicle = nil,
+        },
+        [2] = {
+            coords = {x = 922.37, y = -979.86, z = 39.49, h = 271.5, r = 1.0}, 
+            AttachedVehicle = nil,
+        },
+    },
+    Config.Locations = {
+        ["exit"] = {x = 945.13, y = -975.84, z = 39.49, h = 181.5, r = 1.0},
+        ["stash"] = {x = 947.62, y = -972.46, z = 39.49, h = 274.5, r = 1.0},
+        ["duty"] = {x = 950.73, y = -968.64, z = 39.5, h = 180.5, r = 1.0},
+        ["vehicle"] = {x = 937.93, y = -990.7, z = 38.42, h = 94.5, r = 1.0}, 
+    },
+    Config.Vehicles = {
+        ["flatbed"] = "Flatbed",
+        ["towtruck"] = "Towtruck",
+        ["minivan"] = "Minivan (Leen Auto)",
+        ["blista"] = "Blista",
+    },
 }
+
+Config.Businesses = {
+    "AoD Motorcycle Mechanics",
+},
 
 Config.Plates = {
     [1] = {
-        coords = {x = 937.91, y = -970.64, z = 39.49, h = 271.5, r = 1.0},
+        coords = {x = 791.56, y = -1604.49, z = 30.74, h = 44.5, r = 1.0},
         AttachedVehicle = nil,
     },
     [2] = {
-        coords = {x = 922.37, y = -979.86, z = 39.49, h = 271.5, r = 1.0}, 
-        AttachedVehicle = nil,
-    },
-    [3] = {
-        coords = {x = 921.54, y = -962.17, z = 39.49, h = 274.5, r = 1.0}, 
-        AttachedVehicle = nil,
-    },
-    [4] = {
-        coords = {x = 949.89, y = -947.75, z = 39.49, h = 90.5, r = 1.0}, 
+        coords = {x = 786.02, y = -1609.96, z = 30.74, h = 44.5, r = 1.0}, 
         AttachedVehicle = nil,
     },
 }
 
 Config.Locations = {
-    ["exit"] = {x = 945.13, y = -975.84, z = 39.49, h = 181.5, r = 1.0},
-    ["stash"] = {x = 947.62, y = -972.46, z = 39.49, h = 274.5, r = 1.0},
-    ["duty"] = {x = 950.73, y = -968.64, z = 39.5, h = 180.5, r = 1.0},
-    ["vehicle"] = {x = 937.93, y = -990.7, z = 38.42, h = 94.5, r = 1.0}, 
+    ["MC1"] = {x = 794.07, y = -1612.67, z = 30.61, h = 133.5, r = 1.0},
+    ["stash"] = {x = 785.63, y = -1604.86, z = 31.35, h = 39.5, r = 1.0},
+    ["duty"] = {x = 782.72, y = -1608.7, z = 31.35, h = 91.5, r = 1.0},
+    ["vehicle"] = {x = 801.61, y = -1596.25, z = 31.4, h = 190.5, r = 1.0}, 
 }
 
 Config.Vehicles = {
     ["flatbed"] = "Flatbed",
-    ["towtruck"] = "Towtruck",
-    ["minivan"] = "Minivan (Leen Auto)",
-    ["blista"] = "Blista",
+    ["buffalo"] = "Buffalo Loaner Car",
+    ["bison3"] = "Bison Work Truck",
+    ["ratbike"] = "Loaner Bike",
 }
 
 Config.MinimalMetersForDamage = {

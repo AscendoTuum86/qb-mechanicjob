@@ -107,6 +107,22 @@ Citizen.CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
+    local c = Config.Locations["MC1"]
+    local Blip = AddBlipForCoord(c.x, c.y, c.z)
+
+    SetBlipSprite (Blip, 446)
+    SetBlipDisplay(Blip, 4)
+    SetBlipScale  (Blip, 0.7)
+    SetBlipAsShortRange(Blip, true)
+    SetBlipColour(Blip, 81)
+    SetBlipAlpha(Blip, 0.7)
+
+    BeginTextCommandSetBlipName("STRING")
+    AddTextComponentSubstringPlayerName("AoD Motorcycle Mechanics")
+    EndTextCommandSetBlipName(Blip)
+end)
+
+Citizen.CreateThread(function()
     while true do
         local inRange = false
 
